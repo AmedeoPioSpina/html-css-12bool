@@ -6,15 +6,27 @@ h1{
 }
 
 [class^="col"]{
-    height: 100px;
-    background-color: magenta;
+    height: 40px;
+    background-color: #006CFA;
     color: white;
-    border: 5px solid blue;
+    outline: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+main .container:first-child .row:last-child .col-6 .row div {
+    background-color: #00E165;
+}
+
+.green {
+    
+}
+
 .margin-bottom-5{
     margin-bottom: 5rem;
+}
+
+.container {
+    margin-bottom: 1rem;
 }
